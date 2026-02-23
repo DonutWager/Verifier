@@ -2,11 +2,11 @@ const crypto = require("crypto");
 
 // PASTE FROM DISCORD (VERIFY-LOGS)
 const fairHead = "PASTE_FAIR_HEAD_HEX";       // commitment head shi
-const serverSeed = "PASTE_SERVER_SEED_HEX";   // server seed...
-const clientSeed = "PASTE_CLIENT_SEED";       // player username
-const nonce = 1;                              // bet number
+const serverSeed = "PASTE_SERVER_SEED_HEX";   // server seed
+const clientSeed = "PASTE_CLIENT_SEED";       // player username, 
+const nonce = 1;                              // bet number, PASTE NONCE HERE
 const winIfGreaterThan = 50;
-const seedChainMaxSteps = 5000;               // must match SEED_CHAIN_LENGTH
+const seedChainMaxSteps = 5000;
 const expectedRoll = null;                    // optional
 
 function sha256Hex(s) {
