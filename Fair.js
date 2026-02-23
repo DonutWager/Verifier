@@ -1,10 +1,9 @@
-// verify-roll-with-head.js
 const crypto = require("crypto");
 
-// Paste from Discord (or bot log):
-const fairHead = "PASTE_FAIR_HEAD_HEX";       // commitment head
-const serverSeed = "PASTE_SERVER_SEED_HEX";   // revealed AFTER bet
-const clientSeed = "PASTE_CLIENT_SEED";       // player name (or whatever you use)
+// PASTE FROM DISCORD (VERIFY-LOGS)
+const fairHead = "PASTE_FAIR_HEAD_HEX";       // commitment head shi
+const serverSeed = "PASTE_SERVER_SEED_HEX";   // server seed...
+const clientSeed = "PASTE_CLIENT_SEED";       // player username
 const nonce = 1;                              // bet number
 const winIfGreaterThan = 50;
 const seedChainMaxSteps = 5000;               // must match SEED_CHAIN_LENGTH
